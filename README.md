@@ -30,7 +30,7 @@ A tiny Windows hotkey tool that corrects selected text **in place** using the Op
    Download and run: [https://www.autohotkey.com/download/ahk-v2.exe](https://www.autohotkey.com/download/ahk-v2.exe)
 
 2. **Create a new script file**
-   Create a file, e.g. `text_correction_helper.ahk` and **paste the code** from the Script section below.
+   Create a file, e.g. `text_correction_helper.ahk` and **paste the code** from the Script.
 
 3. **Adjust configuration** *(optional)*
    At the top of the script you can change:

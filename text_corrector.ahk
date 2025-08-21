@@ -1,4 +1,4 @@
-﻿; AutoHotkey v2 — Text Correction Helper (UTF-8 safe)
+; AutoHotkey v2 — Text Correction Helper (UTF-8 safe)
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
@@ -7,7 +7,7 @@
 ; =========================
 OPENAI_API_ENDPOINT := "https://api.openai.com/v1/chat/completions"
 MODEL := "gpt-4o-mini"
-SYSTEM_INSTRUCTION := "Du bist ein Textkorrektur-Assistent. Korrigiere Rechtschreibung und Grammatik, formuliere stilistisch schöner."
+SYSTEM_INSTRUCTION := "You are a text correction assistant. If the text is in German, correct spelling and grammar and improve the style in German. If the text is in English, correct spelling and grammar and improve the style in English. Always keep the original language of the text."
 USE_SWISS_GERMAN := true  ; Set to false if you want to keep ß
 API_KEY := EnvGet("OPENAI_API_KEY") ; Set in environment variables
 
